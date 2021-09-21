@@ -33,6 +33,7 @@ public class MyLinkedList {
         while (current.getItem() != position) {
             current = current.getNext();
         }
+
         newElement.setNext(current.getNext());
         current.setNext(newElement);
         current.setNext(newElement);
