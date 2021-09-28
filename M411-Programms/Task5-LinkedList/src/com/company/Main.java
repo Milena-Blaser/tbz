@@ -2,6 +2,7 @@ package com.company;
 
 public class Main {
 
+
     public static void main(String[] args) {
         MyLinkedList linkedList = new MyLinkedList();
 
@@ -16,5 +17,13 @@ public class Main {
         linkedList.showElements(linkedList);
         linkedList.addSpecificPosition("Diana", "Milena");
         linkedList.showElements(linkedList);
+
+        MyStack list = new MyStack();
+        list.push("to");
+        list.push("be");
+        list.push("or");
+        list.push("not");
+
+
     }
 }
